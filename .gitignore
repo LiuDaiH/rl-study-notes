@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# Temp / extracted text files
+*_extract.txt
+chapter*.txt
+
+# WorkBuddy workspace data
+.workbuddy/
+
+# OS files
+.DS_Store
+Thumbs.db
