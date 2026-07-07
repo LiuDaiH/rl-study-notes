@@ -16,6 +16,7 @@
 | 笔记 | 覆盖章节 | 核心主题 | 状态 |
 |------|---------|---------|------|
 | [Ch1-6](RL_Study_Notes_Ch1_6.docx) | 第 1-6 章 | MDP · 贝尔曼方程 · Q-learning · 策略梯度 | ✅ 完成 |
+| [Ch7-9](RL_Study_Notes_Ch7_9.docx) | 第 7-9 章 | n步自举 · Dyna-Q · 优先遍历 · 函数逼近 · 致命三元组 | ✅ 完成 |
 
 ### 🎯 笔记特色
 
@@ -30,7 +31,10 @@
 rl-study-notes/
 ├── README.md                        # 本文件
 ├── RL_Study_Notes_Ch1_6.docx        # 第1-6章精读笔记
+├── RL_Study_Notes_Ch7_9.docx        # 第7-9章精读笔记
+├── ideas.md                         # 精读灵感与实验方向记录
 ├── generate_rl_doc.js              # Word 文档生成脚本 (Node.js + docx.js)
+├── generate_ch7_9.js               # 第7-9章文档生成脚本
 ├── package.json                     # 依赖配置
 └── package-lock.json
 ```
@@ -62,6 +66,7 @@ Systematic reading notes based on Sutton & Barto's *Reinforcement Learning: An I
 | Notes | Chapters | Key Topics | Status |
 |-------|----------|------------|--------|
 | [Ch1-6](RL_Study_Notes_Ch1_6.docx) | Chapters 1–6 | MDP · Bellman Equations · Q-learning · Policy Gradient | ✅ Done |
+| [Ch7-9](RL_Study_Notes_Ch7_9.docx) | Chapters 7–9 | n-step TD · Dyna-Q · Prioritized Sweeping · Function Approximation · Deadly Triad | ✅ Done |
 
 > **Note**: The study notes (.docx) are currently in Chinese. An English translation is planned for future releases. However, all formulas and references to the original English textbook are preserved, making the document accessible to non-Chinese readers familiar with the source material.
 
@@ -78,7 +83,10 @@ Systematic reading notes based on Sutton & Barto's *Reinforcement Learning: An I
 rl-study-notes/
 ├── README.md                        # This file
 ├── RL_Study_Notes_Ch1_6.docx        # Chapters 1-6 study notes (Word)
+├── RL_Study_Notes_Ch7_9.docx        # Chapters 7-9 study notes (Word)
+├── ideas.md                         # Reading inspirations & experiment ideas
 ├── generate_rl_doc.js              # Word document generation script (Node.js + docx.js)
+├── generate_ch7_9.js               # Chapters 7-9 document generation script
 ├── package.json                     # Dependencies
 └── package-lock.json
 ```
@@ -101,4 +109,4 @@ This workflow has also been packaged as a WorkBuddy skill called `pdf-study-note
 
 ---
 
-**作者 / Author**: [LiuDaiH](https://github.com/LiuDaiH) | **整理日期 / Date**: 2026-06-14
+**作者 / Author**: [LiuDaiH](https://github.com/LiuDaiH) | **整理日期 / Date**: 2026-07-07
